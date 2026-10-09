@@ -1,0 +1,84 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4f6ed;
+  background: #10211c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #f4f6ed;
+  --muted: #a4b2a9;
+  --green: #c9f36b;
+  --surface: #192d26;
+  --surface-raised: #20382f;
+  --line: rgb(244 246 237 / 12%);
+  --radius: 1.25rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.app-shell {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.page-wrap {
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.eyebrow {
+  color: var(--green);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+@media (max-width: 540px) {
+  .page-wrap {
+    width: min(100% - 32px, 480px);
+  }
+}

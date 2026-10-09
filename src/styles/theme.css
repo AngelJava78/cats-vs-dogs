@@ -1,0 +1,70 @@
+.theme-futbol-mexicano .board-stage__wash,
+.theme-futbol-europeo .board-stage__wash {
+  background:
+    linear-gradient(130deg, rgb(8 23 17 / 66%), rgb(9 23 19 / 35%)),
+    repeating-linear-gradient(0deg, transparent 0 47px, rgb(255 255 255 / 7%) 48px 49px);
+}
+
+.theme-futbol-mexicano .board-stage__wash::after,
+.theme-futbol-europeo .board-stage__wash::after {
+  position: absolute;
+  inset: 11% 7%;
+  border: 1px solid rgb(255 255 255 / 12%);
+  border-radius: 48%;
+  content: '';
+}
+
+.theme-animales .board-stage__wash {
+  background:
+    radial-gradient(circle at 82% 17%, rgb(220 231 165 / 19%) 0 2px, transparent 3px),
+    radial-gradient(circle at 79% 15%, rgb(220 231 165 / 19%) 0 2px, transparent 3px),
+    radial-gradient(circle at 84% 15%, rgb(220 231 165 / 19%) 0 2px, transparent 3px),
+    radial-gradient(circle at 81% 12%, rgb(220 231 165 / 19%) 0 2px, transparent 3px),
+    linear-gradient(130deg, rgb(10 24 19 / 64%), rgb(12 29 22 / 34%));
+}
+
+.theme-clasico .board-stage__wash {
+  background:
+    repeating-linear-gradient(90deg, transparent 0 42px, rgb(255 255 255 / 3%) 43px 44px),
+    linear-gradient(130deg, rgb(13 28 21 / 67%), rgb(20 31 25 / 39%));
+}
+
+.theme-clasico .board-grid {
+  border-color: rgb(255 255 255 / 31%);
+  background: rgb(25 39 31 / 70%);
+}
+
+.theme-clasico .board-cell {
+  border-color: rgb(244 246 237 / 26%);
+  background: rgb(248 247 232 / 8%);
+}
+
+.theme-plants-vs-zombies .board-stage__wash {
+  background:
+    radial-gradient(circle at 15% 22%, rgb(255 236 142 / 19%) 0 42px, transparent 43px),
+    linear-gradient(130deg, rgb(12 34 19 / 62%), rgb(18 40 20 / 31%));
+}
+
+.theme-formula-1 .board-stage__wash {
+  background:
+    repeating-linear-gradient(135deg, transparent 0 34px, rgb(255 255 255 / 5%) 35px 37px),
+    linear-gradient(130deg, rgb(15 22 35 / 69%), rgb(42 19 22 / 40%));
+}
+
+.theme-futbol-americano .board-stage__wash {
+  background:
+    repeating-linear-gradient(90deg, transparent 0 47px, rgb(255 255 255 / 7%) 48px 49px),
+    linear-gradient(130deg, rgb(8 23 17 / 66%), rgb(9 23 19 / 35%));
+}
+
+.theme-chicas-vs-chicos .board-stage__wash {
+  background:
+    linear-gradient(130deg, rgb(59 23 53 / 55%), rgb(17 31 58 / 44%)),
+    repeating-linear-gradient(0deg, transparent 0 47px, rgb(255 255 255 / 5%) 48px 49px);
+}
+
+.theme-batman-vs-gason .board-stage__wash {
+  background:
+    radial-gradient(ellipse at 78% 18%, rgb(240 205 118 / 18%) 0 56px, transparent 58px),
+    linear-gradient(130deg, rgb(9 17 33 / 72%), rgb(23 27 41 / 43%));
+}
